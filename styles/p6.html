@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="nav-left">
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+  <ul class="nav-right">
+      <li><a href="p1.html">P1</a></li>
+      <li><a href="p2.html">P2</a></li>
+      <li><a href="p3.html">P3</a></li>
+      <li><a href="p4.html">P4</a></li>
+      <li><a href="p5.html">P5</a></li>
+      <li><a href="p6.html">P6</a></li>
+      <li><a href="p7.html">P7</a></li>
+      <li><a href="p8.html">P8</a></li>
+      <li><a href="p9.html">P9</a></li>
+      <li><a href="p10.html">P10</a></li>
+      <li><a href="p11.html">P11</a></li>
+      <li><a href="p12.html">P12</a></li>
+      <li><a href="p13.html">P13</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Sueldo Semanal</h1>
+  </header>
+  <section class="intro">
+    <p>
+3.6 Realice el diagrama de flujo, el pseudocódigo y el diagrama N/S que muestren el algoritmo para determinar el costo y el descuento que tendrá un artículo. Considere que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si su precio es mayor a $100 pero menor a $200, el descuento es de 12%, y si es menor a $100, sólo 10%.
+  </section>
+
+  <section class="form-section">
+    <div class="card">
+    <label for="thing">Escribe el precio de tu articulo: </label>
+    <input type="text" id="thing" name="thing"><br>
+
+    <button onclick="descuento()">Calcular</button>
+    <div id="resultado"></div>
+
+    </div>
+  </section>
+
+  <script src="../scripts/functions.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="nav-left">
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+  <ul class="nav-right">
+      <li><a href="p1.html">P1</a></li>
+      <li><a href="p2.html">P2</a></li>
+      <li><a href="p3.html">P3</a></li>
+      <li><a href="p4.html">P4</a></li>
+      <li><a href="p5.html">P5</a></li>
+      <li><a href="p6.html">P6</a></li>
+      <li><a href="p7.html">P7</a></li>
+      <li><a href="p8.html">P8</a></li>
+      <li><a href="p9.html">P9</a></li>
+      <li><a href="p10.html">P10</a></li>
+      <li><a href="p11.html">P11</a></li>
+      <li><a href="p12.html">P12</a></li>
+      <li><a href="p13.html">P13</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Sueldo Semanal</h1>
+  </header>
+  <section class="intro">
+    <p>3.12 Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar más de 50 horas no está permitido. Represente el algoritmo mediante el diagrama de flujo, el pseudocódigo y el diagrama N/S.</section>
+
+  <section class="form-section">
+    <div class="card">
+    <label for="horas">Horas trabajadas:</label>
+    <input type="number" id="horas"><br>
+
+    <label for="pago">Pago por hora:</label>
+    <input type="number" step="0.01" id="pago"><br>
+
+    <button onclick="calcularSueldo()">Calcular sueldo</button>
+    <div id="resultado"></div>
+
+    </div>
+  </section>
+
+  <script src="../scripts/functions.js" defer></script>
+</body>
+</html>

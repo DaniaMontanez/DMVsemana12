@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="nav-left">
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+  <ul class="nav-right">
+      <li><a href="p1.html">P1</a></li>
+      <li><a href="p2.html">P2</a></li>
+      <li><a href="p3.html">P3</a></li>
+      <li><a href="p4.html">P4</a></li>
+      <li><a href="p5.html">P5</a></li>
+      <li><a href="p6.html">P6</a></li>
+      <li><a href="p7.html">P7</a></li>
+      <li><a href="p8.html">P8</a></li>
+      <li><a href="p9.html">P9</a></li>
+      <li><a href="p10.html">P10</a></li>
+      <li><a href="p11.html">P11</a></li>
+      <li><a href="p12.html">P12</a></li>
+      <li><a href="p13.html">P13</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Alumnos</h1>
+  </header>
+  <section class="intro">
+    <p>
+3.13 Los alumnos de una escuela desean realizar un viaje de estudios, pero requieren determinar cuánto les costará el pasaje, considerando que las tarifas del autobús son las siguientes: 
+si son más de 100 alumnos, el costo es de $20; si son entre 50 y 100, $35; entre 20 y 49, $40, y si son menos de 20 alumnos, $70 por cada uno. Realice el algoritmo para determinar el costo del pasaje de cada alumno.
+Represente el algoritmo mediante el diagrama de flujo, el pseudocódigo y el diagrama N/S.</section>
+
+  <section class="form-section">
+    <div class="card">
+<label for="alumnos">Número de alumnos:</label>
+<input type="number" id="alumnos"><br>
+
+<button onclick="calcularPasaje()">Calcular costo</button>
+<div id="resultado"></div>
+
+
+    </div>
+  </section>
+
+  <script src="../scripts/functions.js" defer></script>
+</body>
+</html>

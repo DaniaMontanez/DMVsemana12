@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="nav-left">
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+  <ul class="nav-right">
+      <li><a href="p1.html">P1</a></li>
+      <li><a href="p2.html">P2</a></li>
+      <li><a href="p3.html">P3</a></li>
+      <li><a href="p4.html">P4</a></li>
+      <li><a href="p5.html">P5</a></li>
+      <li><a href="p6.html">P6</a></li>
+      <li><a href="p7.html">P7</a></li>
+      <li><a href="p8.html">P8</a></li>
+      <li><a href="p9.html">P9</a></li>
+      <li><a href="p10.html">P10</a></li>
+      <li><a href="p11.html">P11</a></li>
+      <li><a href="p12.html">P12</a></li>
+      <li><a href="p13.html">P13</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Bonos</h1>
+  </header>
+  <section class="intro">
+    <p>
+3.8 Cierta empresa proporciona un bono mensual a sus trabajadores, el cual puede ser por su antigüedad o bien por el monto de su sueldo (el que sea mayor), de la siguiente forma:
+ Cuando la antigüedad es mayor a 2 años pero menor a 5, se otorga 20 % de su sueldo; cuando es de 5 años o más, 30 %. 
+ Ahora bien, el bono por concepto de sueldo, si éste es menor a $1000, se da 25 % de éste, cuando éste es mayor a $1000, pero menor o igual a $3500, se otorga 15% de su sueldo, para más de $3500. 10%. Realice el algoritmo correspondiente para calcular los dos tipos de bono, asignando el mayor, y represéntelo con un diagrama de flujo y pseudocódigo.  </section>
+
+  <section class="form-section">
+    <div class="card">
+    <label for="years">Años trabajados en la empresa:</label>
+    <input type="text" id="years"><br>
+
+    <label for="sueldo">Sueldo mensual:</label>
+    <input type="text" id="sueldo"><br>
+
+    <button onclick="bono()">Calcular bono</button>
+    <div id="resultado"></div>
+
+    </div>
+  </section>
+
+  <script src="../scripts/functions.js" defer></script>
+</body>
+</html>

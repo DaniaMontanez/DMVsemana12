@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+  <div class="nav-left">
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+  <ul class="nav-right">
+      <li><a href="p1.html">P1</a></li>
+      <li><a href="p2.html">P2</a></li>
+      <li><a href="p3.html">P3</a></li>
+      <li><a href="p4.html">P4</a></li>
+      <li><a href="p5.html">P5</a></li>
+      <li><a href="p6.html">P6</a></li>
+      <li><a href="p7.html">P7</a></li>
+      <li><a href="p8.html">P8</a></li>
+      <li><a href="p9.html">P9</a></li>
+      <li><a href="p10.html">P10</a></li>
+      <li><a href="p11.html">P11</a></li>
+      <li><a href="p12.html">P12</a></li>
+      <li><a href="p13.html">P13</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Poliza</h1>
+  </header>
+  <section class="intro">
+    <p>
+3.9 Una compañía de seguros para autos ofrece dos tipos de póliza: 
+cobertura amplia (A) y daños a terceros (B). Para el plan A, la cuota base es de $1,200, y para el B, de $950. 
+A ambos planes se les carga 10% del costo si la persona que conduce tiene por hábito beber alcohol, 5% si utiliza lentes, 5% si padece alguna enfermedad como deficiencia cardiaca o diabetes, y si tiene más de 40 años, se le carga 20%, de lo contrario sólo 10%. 
+Todos estos cargos se realizan sobre el costo base. Realice diagrama de flujo y diagrama N/S que represente el algoritmo para determinar cuánto le cuesta a una persona contratar una póliza.</section>
+
+  <section class="form-section">
+    <div class="card">
+    <label for="plan">Tipo de plan (A o B):</label>
+    <input type="text" id="plan"><br>
+
+    <label><input type="checkbox" id="alcohol"> Hábito de beber alcohol</label><br>
+    <label><input type="checkbox" id="lentes"> Usa lentes</label><br>
+    <label><input type="checkbox" id="enfermedad"> Padece enfermedad</label><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad"><br>
+
+    <button onclick="calcularPoliza()">Calcular póliza</button>
+    <div id="resultado"></div>
+
+    </div>
+  </section>
+
+  <script src="../scripts/functions.js" defer></script>
+</body>
+</html>
